@@ -21,7 +21,7 @@ myEmitter.on("newSale", stock => {
   console.log(`There are now ${stock} items left in stock.`);
 });
 
-myEmitter.emit("newSale", 9);
+myEmitter.emit("newSale", 9); //9 is stock
 
 //////////////////
 
